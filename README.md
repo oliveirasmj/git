@@ -75,4 +75,4 @@ Atualizar dados para repositorio local:
 - git pull
 
 Clonar o repositório para o windows:
-git clone https://github.com/oliveirasmj/git.git
+- git clone https://github.com/oliveirasmj/git.git
