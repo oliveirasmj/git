@@ -1,7 +1,7 @@
 # Curso GIT e GITHUB
 
 Git
-- sistema de controlo de versoes
+- sistema de controlo de versões
 - documenta e armazena todas as alterações do projeto
 
 GitHub
