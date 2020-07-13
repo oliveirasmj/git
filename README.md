@@ -72,6 +72,8 @@ Criar repositório remoto no GitHub e enviar os ficheiros(se já existir localme
 
 Enviar ficheiros para o GitHub:
 - git push -u origin master (enviar dados para o GitHub)
+- OU
+- git push
 
 Atualizar ficheiros para repositorio local:
 - git pull
