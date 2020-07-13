@@ -1,5 +1,4 @@
-# git
-Curso GIT e GITHUB
+# Curso GIT e GITHUB
 
 Git
 - sistema de controlo de versoes
