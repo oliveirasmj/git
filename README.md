@@ -78,3 +78,12 @@ Atualizar ficheiros para repositorio local:
 
 Clonar o repositório para o windows:
 - git clone https://github.com/oliveirasmj/git.git
+
+Quando push dá erro:
+- git fetch (download das alterações que estão no repositório para fazer análise do que foi modificado e resolver problemas de conflito)
+- git checkout origin
+- git checkout master
+- git pull (atualizar tudo para local para resolver os problemas)
+- git add .
+- git commit -m "conflito resolvido"
+- git push
