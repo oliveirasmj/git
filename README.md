@@ -16,8 +16,8 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 
 Comandos basicos:
 - git version (ver versao)
-- git config --global user.name "Miguel Oliveira"
-- git config --global user.email "oliveirasmj@gmail.com"
+- git config --global user.name "Name"
+- git config --global user.email "email@gmail.com"
 - git config user.name (ver nome)
 - git config core.editor (ver editor)
 - git config --global core.editor " " (mudar editor)
@@ -63,14 +63,16 @@ Caso dê erro a unir:
 - git add .
 - git commit -m "Fusão dos ramos e resolucao do conflito a.txt"
 
-Criar repositório remoto no GitHub:
+Criar repositório remoto no GitHub e enviar os ficheiros(se já existir localmente):
 - git remote (verifica se existe repositório remoto)
-- aceder ao github.com
+- Aceder ao github.com e criar o Repositório no botão +
+- Tirar o visto em "Initialize this repository with a README"
 - git remote add origin https://github.com/oliveirasmj/git.git (copiar o link do git)
 - git remote (verifica se existe repositório remoto)
-
-Enviar dados para o GitHub:
-- git push -u origin master (enviar dados para o git)
+- git push -u origin master (enviar dados para o GitHub)
 
 Atualizar dados para repositorio local:
 - git pull
+
+Clonar o repositório para o windows:
+git clone https://github.com/oliveirasmj/git.git
