@@ -69,9 +69,11 @@ Criar repositório remoto no GitHub e enviar os ficheiros(se já existir localme
 - Tirar o visto em "Initialize this repository with a README"
 - git remote add origin https://github.com/oliveirasmj/git.git (copiar o link do git)
 - git remote (verifica se existe repositório remoto)
+
+Enviar ficheiros para o GitHub:
 - git push -u origin master (enviar dados para o GitHub)
 
-Atualizar dados para repositorio local:
+Atualizar ficheiros para repositorio local:
 - git pull
 
 Clonar o repositório para o windows:
