@@ -88,3 +88,20 @@ Quando push dá erro:
 - git add .
 - git commit -m "conflito resolvido"
 - git push
+
+Git Fork:
+- Significa que acabaste de criar uma cópia do repositório principal de um código-fonte do projeto no teu próprio perfil do GitHub. 
+- Aqui tu podes experimentar o que quiseres sem afetar a principal fonte desse projeto.
+- 1)Selecionar o projeto no github
+- 2)Clicar em Fork
+- 3)Ir a "Your repositories" e clicar no projeto
+- 4)O Projeto está clonado no perfil do teu github
+- 5)Adicionar as alterações que achas necessário no projeto
+- 6)Fazer o commit
+- 7)Clicar em "New Pull Request" e depois em "Create Pull Request"
+
+Pull Request:
+- Serve para solicitar uma alteração ao projeto original. O criador será solicitado podendo ou não aceitar a alteração.
+- O outro utilizador para aceitar deverá entrar no projeto e para aceitar:
+- 1)Clicar em "Merge pull request"
+- 2)e clicar em "Confirm merge"
