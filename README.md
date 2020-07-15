@@ -105,3 +105,7 @@ Pull Request:
 - O outro utilizador para aceitar deverá entrar no projeto e para aceitar:
 - 1)Clicar em "Merge pull request"
 - 2)e clicar em "Confirm merge"
+
+Instalar no linux:
+- sudo apt-get update
+- sudo apt-get install git
