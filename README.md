@@ -19,7 +19,7 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git config --global user.email "email@gmail.com"
 - git config user.name (ver nome)
 - git config core.editor (ver editor)
-- git config --global core.editor " " (mudar editor)
+- git config --global core.editor " " (mudar editor - colocar caminho do editor entre aspas)
 - pwd (localização)
 - cd /c (entrar em c)
 - ls (listar ficheiros)
