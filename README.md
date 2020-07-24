@@ -86,7 +86,7 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git checkout master
 - git pull (atualizar tudo para local para resolver os problemas)
 - git add .
-- git commit -m "conflito resolvido"
+- git commit -m "Conflito resolvido"
 - git push
 
 ## Git Fork
