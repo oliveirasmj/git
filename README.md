@@ -70,9 +70,8 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git remote (verifica se existe repositório remoto)
 
 ## Enviar ficheiros para o GitHub
-- git push -u origin master (enviar dados para o GitHub)
-- OU
-- git push
+- git push -u origin master (o primeiro push de um repositório deve conter o nome do repositório remoto e o branch)
+- git push (os outros pushes não precisam da informação acima)
 
 ## Atualizar ficheiros para repositorio local
 - git pull
