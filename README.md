@@ -108,3 +108,6 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 ## Instalar no linux
 - sudo apt-get update
 - sudo apt-get install git
+
+## Diferença entre “git add --all”, “git add .” e “git add -u”
+https://pt.stackoverflow.com/questions/326160/diferen%C3%A7a-entre-git-add-all-git-add-e-git-add-u
