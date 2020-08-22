@@ -69,8 +69,7 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - Tirar o visto em "Initialize this repository with a README"
 - git remote add origin https://github.com/oliveirasmj/git.git (copiar o link do git) - associa o repositório local ao remoto
 <p> <p>
-- ATENCAO : Fazer este comando a seguir (git pull origin master) APENAS SE criou o "gitignore" no GitHub
-- Às vezes, há arquivos sensíveis (exemplo: senhas) ou que são irrelevantes e que não se deseja versionar (exemplo: node_module)
+- ATENCAO : Fazer este comando (git pull origin master) APENAS SE criou o "gitignore" no GitHub - às vezes, há arquivos sensíveis (exemplo: senhas) ou que são irrelevantes e que não se deseja versionar (exemplo: node_module)
 
 ## Enviar ficheiros para o GitHub
 - (git add .)
