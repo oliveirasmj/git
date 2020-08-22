@@ -78,7 +78,7 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 ## Atualizar ficheiros para repositorio local
 - git pull
 
-## Clonar o repositório para o windows
+## Clonar o repositório para o windows (se não existir localmente)
 - git clone https://github.com/oliveirasmj/git.git
 
 ## Quando push dá erro
