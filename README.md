@@ -63,15 +63,15 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git commit -m "Fusão dos ramos e resolucao do conflito a.txt"
 
 ## Criar repositório remoto no GitHub(se já existir localmente)
-(git init (criar repositorio local))
+- (git init (criar repositorio local))
 - git remote (verifica se existe repositório remoto)
 - Aceder ao github.com e criar o Repositório no botão +
 - Tirar o visto em "Initialize this repository with a README"
 - git remote add origin https://github.com/oliveirasmj/git.git (copiar o link do git) - associa o repositório local ao remoto
 
 ## Enviar ficheiros para o GitHub
-(git add .)
-(git commit -m "Projeto criado")
+- (git add .)
+- (git commit -m "Projeto criado")
 - git push -u origin master (o primeiro push de um repositório deve conter o nome do repositório remoto e o branch)
 - git push (os outros pushes não precisam da informação acima)
 
