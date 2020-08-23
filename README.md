@@ -46,10 +46,10 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git reset --soft HEAD~1 (remover o último commit, porém mantendo os arquivos como estão)
 - git reset --hard HEAD~1 (remover o último commit inclusive as alterações nos arquivos)
 - git push -f origin HEAD^:master (apagar o último commit no Github)
-
 - git reset --hard a2f2800 (remover commits e retorna ao commit a2f2800)
-- git checkout 5cfc1ad (recuperar para uma versao anterior - apontar o head para o commit 5cfc1ad)
-- git checkout master (voltar ao último commit)
+
+- git checkout 5cfc1ad (recuperar TEMPORARIAMENTE para uma versao anterior - apontar o head para o commit 5cfc1ad)
+- git checkout master (voltar ao último commit - desfazer o TEMPORARIO apontar o head para o master)
 
 - git reset HEAD (remover add. do container - o ficheiro fica igual)
 - git checkout a.txt (anular alterações recentes a um ficheiro)
