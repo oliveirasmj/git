@@ -41,13 +41,20 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git commit -am "a.txt adicionei a linha entender o head" (adicionar e fazer commit)
 
 ## Comandos de commits
-- git branch (ramo em que o projeto se encontra) - UTIL
-- git checkout 5cfc1ad (recuperar para uma versao anterior - apontar o head para o respetivo commit 5cfc1ad)
-- git checkout master (desfazer a recuperação e retornar à ultima versao)
-- git diff (ver revisao do que foi adicionado e apagado)
-- git checkout a.txt (anular alterações recentes a um ficheiro)
+- git clean -df - (desfazer tudo desde o último commit - reverter ficheiros) - CONVEM FAZER O COMANDO ABAIXO DESTE
+- git checkout -- . (desfazer tudo que eu fiz desde o último commit - apagar arquivos e pastas)
+- git reset --soft HEAD~1 (remover o último commit, porém mantendo os arquivos como estão)
+- git reset --hard HEAD~1 (remover o último commit inclusive as alterações nos arquivos)
+- git push -f origin HEAD^:master (apagar o último commit no Github)
+
+- git reset --hard a2f2800 (remover commits e retorna ao commit a2f2800)
+- git checkout 5cfc1ad (recuperar para uma versao anterior - apontar o head para o commit 5cfc1ad)
+- git checkout master (voltar ao último commit)
+
 - git reset HEAD (remover add. do container - o ficheiro fica igual)
-- git reset --hard a2f2800 (remover um commit e passar para o commit: a2f2800)
+- git checkout a.txt (anular alterações recentes a um ficheiro)
+- git diff (ver revisao do que foi adicionado e apagado)
+- git branch (ramo em que o projeto se encontra) - UTIL
 
 ## Comandos de ramos
 - git checkout -b teste (criar novo ramo e trabalhar sobre ele)
