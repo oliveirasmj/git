@@ -40,7 +40,7 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git log --graph --all (ver desenho do grafo de commits com todos os ramos)
 - git commit -am "a.txt adicionei a linha entender o head" (adicionar e fazer commit)
 
-## Comandos de commits
+## Kit primeiros socorros
 - git clean -df - (desfazer tudo desde o último commit - reverter ficheiros) - CONVEM FAZER O COMANDO ABAIXO DESTE
 - git checkout -- . (desfazer tudo que eu fiz desde o último commit - apagar arquivos e pastas)
 - git reset --soft HEAD~1 (remover o último commit, porém mantendo os arquivos como estão)
