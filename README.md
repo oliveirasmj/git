@@ -48,8 +48,8 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - git push -f origin HEAD^:master (apagar o último commit no Github)
 - git reset --hard a2f2800 (remover commits e retorna ao commit a2f2800)
 
-- git checkout 5cfc1ad (recuperar TEMPORARIAMENTE para uma versao anterior - apontar o head para o commit 5cfc1ad)
-- git checkout master (voltar ao último commit - desfazer o TEMPORARIO apontar o head para o master)
+- git checkout 5cfc1ad (recuperar TEMPORARIAMENTE para uma versao anterior - apontar o head para o commit 5cfc1ad - nao editar codigo, caso contrário para depois sair do temporario fazer os dois comandos de desfazer tudo desde o último commit)
+- git checkout master (voltar ao último commit - sair do TEMPORARIO apontar o head para o master)
 
 - git reset HEAD (remover add. do container - o ficheiro fica igual)
 - git checkout a.txt (anular alterações recentes a um ficheiro)
