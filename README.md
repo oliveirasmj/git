@@ -8,7 +8,7 @@
 - rede social de projetos
 - hospedar e partilhar projetos
 
-Vantagens: backup, controlo de versoes(qualquer alterações no codigo), trabalhar em equipa(integração), portfolio
+Vantagens: backup e controlo de versões(qualquer alterações no codigo), trabalhar em equipa(integração), portfolio
 
 Para criar funcionalidades - criar outro ramo sem interferir no ramo principal e depois fundir
 HEAD - ponto onde o projeto se encontra - ultimo commit
