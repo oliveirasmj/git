@@ -82,6 +82,7 @@ HEAD - ponto onde o projeto se encontra - ultimo commit
 - (git add .)
 - (git commit -m "Projeto criado")
 - git push -u origin master (o primeiro push de um repositório deve conter o nome do repositório remoto e o branch)
+  (ser der erro de 2 branchs: https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
 - git push (os outros pushes não precisam da informação acima)
 
 ## Atualizar ficheiros para repositorio local
